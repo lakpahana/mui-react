@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppBar, Box, Container, Typography } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      {/* //create navbar */}
+      <AppBar position="static">
+        <Typography variant="h6">MUI</Typography>
+
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography variant="h6">Home</Typography>
+          <Typography variant="h6">About</Typography>
+          <Typography variant="h6">Contact</Typography>
+        </Box>
+
+        <Typography variant="h6">MUI</Typography>
+
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography variant="h6">Home</Typography>
+          <Typography variant="h6">About</Typography>
+          <Typography variant="h6">Contact</Typography>
+        </Box>
+      </AppBar>
+      {/* //create content */}
+    </Container>
   );
 }
 
