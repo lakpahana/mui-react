@@ -10,8 +10,8 @@ root.render(
   <React.StrictMode>
     {/* <Blog/> */}
     {/* <App/>  */}
-    {/* <Home2 /> */}
-    <App2/>
+    <Home2 />
+    {/* <App2/> */}
   </React.StrictMode>
 );
 
