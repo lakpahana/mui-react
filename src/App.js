@@ -1,27 +1,25 @@
-import { AppBar, Box, Container, Typography } from "@mui/material";
-
+import { CssBaseline,Container } from "@mui/material";
+import Header from "./Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import AboutUs from "./AboutUs";
 function App() {
   return (
     <Container>
-      {/* //create navbar */}
-      <AppBar position="static">
-        <Typography variant="h6">MUI</Typography>
-
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h6">Home</Typography>
-          <Typography variant="h6">About</Typography>
-          <Typography variant="h6">Contact</Typography>
-        </Box>
-
-        <Typography variant="h6">MUI</Typography>
-
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h6">Home</Typography>
-          <Typography variant="h6">About</Typography>
-          <Typography variant="h6">Contact</Typography>
-        </Box>
-      </AppBar>
-      {/* //create content */}
+        <Header></Header>
+        <Router>
+          <Routes>
+            <Route
+              path="/"
+              element={<HomePage/>}
+            ></Route>
+            <Route
+              path="/about"
+              element={<AboutUs/>}
+            ></Route>
+          </Routes>
+        </Router>
+    
     </Container>
   );
 }

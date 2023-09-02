@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.womanTravelerWithBackpackWIcon {
+    position: absolute;
+    top: 509px;
+    left: 0px;
+    width: 1920px;
+    height: 1459px;
+    object-fit: cover;
+}
+.heroSeationChild {
+    position: absolute;
+    top: 509px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1920px;
+    height: 950px;
+}
+.whereWillYou1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.loremIpsumDolor1 {
+    position: absolute;
+    top: 141px;
+    left: 20px;
+    font-size: 15px;
+    line-height: 196.3%;
+    text-align: center;
+    display: inline-block;
+    width: 865px;
+    height: 110px;
+}
+.letsGo {
+    position: absolute;
+    top: 279px;
+    left: 356px;
+    font-size: 36px;
+    line-height: 196.3%;
+    color: #ffa902;
+}
+.whereWillYouGoNextParent {
+    position: absolute;
+    top: 884px;
+    left: 506px;
+    width: 905px;
+    height: 350px;
+}
+.heroSeationItem {
+    position: absolute;
+    top: 608.5px;
+    left: 372.5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    width: 1173px;
+    height: 1px;
+}
+.vant {
+    color: #fff;
+}
+.gallivant {
+    position: absolute;
+    top: 534px;
+    left: 375px;
+    font-size: 36px;
+    color: #ffa902;
+}
+.socialMediaIcon {
+    position: absolute;
+    top: 534px;
+    left: 1346px;
+    width: 209px;
+    height: 56px;
+}
+.searchBarChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 554px;
+    height: 53px;
+}
+.frameIcon6 {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.searchYourOption1 {
+    position: absolute;
+    top: 13px;
+    left: 65px;
+    font-weight: 300;
+}
+.searchBar {
+    position: absolute;
+    top: 534px;
+    left: 683px;
+    width: 554px;
+    height: 53px;
+    font-size: 18px;
+    color: #868383;
+}
+.frameIcon7 {
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 84px;
+    height: 30px;
+}
+.frameIcon8 {
+    position: absolute;
+    top: 3px;
+    left: 95px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.aboutMe {
+    position: absolute;
+    top: 0px;
+    left: 149px;
+    width: 119px;
+    height: 30px;
+}
+.frameIcon9 {
+    position: absolute;
+    top: 3px;
+    left: 94px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.category {
+    position: absolute;
+    top: 0px;
+    left: 333px;
+    width: 118px;
+    height: 30px;
+}
+.frameIcon10 {
+    position: absolute;
+    top: 3px;
+    left: 44px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.blog {
+    position: absolute;
+    top: 0px;
+    left: 516px;
+    width: 68px;
+    height: 30px;
+}
+.frameIcon11 {
+    position: absolute;
+    top: 3px;
+    left: 116px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.contactMe {
+    position: absolute;
+    top: 0px;
+    left: 649px;
+    width: 140px;
+    height: 30px;
+}
+.menu {
+    position: absolute;
+    top: 631px;
+    left: 565px;
+    width: 789px;
+    height: 30px;
+    font-size: 20px;
+}
+.heroSeation {
+    position: relative;
+    width: 100%;
+    height: 1459px;
+    text-align: left;
+    font-size: 75px;
+    color: #fff;
+    font-family: Poppins;
+}
+
